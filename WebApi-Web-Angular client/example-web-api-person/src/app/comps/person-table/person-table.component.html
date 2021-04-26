@@ -1,0 +1,15 @@
+<p>person-table works!</p>
+
+
+<table>
+    <tr>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Age</th>
+    </tr>
+    <tr *ngFor="let p of persons">
+        <td>{{p.FirstName}}</td>
+        <td>{{p.LastName}}</td>
+        <td>{{p.Age}}</td>
+    </tr>
+</table>
